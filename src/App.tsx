@@ -106,7 +106,7 @@ function App() {
                             autoPageSize
                             autoHeight={true}
                             checkboxSelection
-                            onStateChange={(e: StateChangeParams) => gridStateChangeHandler(e)}
+                            onStateChange={gridStateChangeHandler}
                             hideFooterPagination
                             onSelectionChange={selectHandler}
                         />
